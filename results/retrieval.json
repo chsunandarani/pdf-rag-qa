@@ -1,0 +1,71 @@
+{
+  "n_questions": 30,
+  "rows": [
+    {
+      "retriever": "bm25",
+      "chunk_words": 40,
+      "overlap": 10,
+      "n_chunks": 42,
+      "hit@1": 0.7666666666666667,
+      "hit@3": 0.9333333333333333,
+      "hit@5": 1.0,
+      "mrr@5": 0.8594444444444445,
+      "ms_per_query": 0.03741011428571385
+    },
+    {
+      "retriever": "tfidf",
+      "chunk_words": 40,
+      "overlap": 10,
+      "n_chunks": 42,
+      "hit@1": 0.7333333333333333,
+      "hit@3": 0.9,
+      "hit@5": 1.0,
+      "mrr@5": 0.84,
+      "ms_per_query": 0.44600817142931454
+    },
+    {
+      "retriever": "bm25",
+      "chunk_words": 80,
+      "overlap": 20,
+      "n_chunks": 22,
+      "hit@1": 0.9666666666666667,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr@5": 0.9833333333333333,
+      "ms_per_query": 0.03019559999951785
+    },
+    {
+      "retriever": "tfidf",
+      "chunk_words": 80,
+      "overlap": 20,
+      "n_chunks": 22,
+      "hit@1": 0.9,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr@5": 0.95,
+      "ms_per_query": 0.41202422857103166
+    },
+    {
+      "retriever": "bm25",
+      "chunk_words": 150,
+      "overlap": 30,
+      "n_chunks": 12,
+      "hit@1": 0.9333333333333333,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr@5": 0.9666666666666667,
+      "ms_per_query": 0.028476914285745027
+    },
+    {
+      "retriever": "tfidf",
+      "chunk_words": 150,
+      "overlap": 30,
+      "n_chunks": 12,
+      "hit@1": 0.9333333333333333,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr@5": 0.9666666666666667,
+      "ms_per_query": 0.39765902857068014
+    }
+  ]
+}

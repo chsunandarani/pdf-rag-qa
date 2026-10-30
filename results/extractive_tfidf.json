@@ -1,0 +1,33 @@
+{
+  "mode": "extractive",
+  "retriever": "tfidf",
+  "top_k": 3,
+  "chunk_words": 80,
+  "overlap": 20,
+  "model": null,
+  "provider": null,
+  "n_questions": 35,
+  "accuracy_overall": 0.7428571428571429,
+  "accuracy_answerable": 0.8333333333333334,
+  "correct_refusals": 0.2,
+  "answer_in_context": 1.0,
+  "latency_ms": {
+    "retrieval": {
+      "mean": 0.4797142857142857,
+      "p50": 0.45,
+      "p95": 0.6919999999999996
+    },
+    "generation": {
+      "mean": 0.11542857142857144,
+      "p50": 0.12,
+      "p95": 0.173
+    },
+    "total": {
+      "mean": 0.5954285714285714,
+      "p50": 0.57,
+      "p95": 0.8399999999999994
+    }
+  },
+  "index_build_ms": 32.876606000002084,
+  "run_date": "2026-10-30"
+}

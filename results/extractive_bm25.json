@@ -1,0 +1,33 @@
+{
+  "mode": "extractive",
+  "retriever": "bm25",
+  "top_k": 3,
+  "chunk_words": 80,
+  "overlap": 20,
+  "model": null,
+  "provider": null,
+  "n_questions": 35,
+  "accuracy_overall": 0.7142857142857143,
+  "accuracy_answerable": 0.7666666666666667,
+  "correct_refusals": 0.4,
+  "answer_in_context": 1.0,
+  "latency_ms": {
+    "retrieval": {
+      "mean": 0.052571428571428575,
+      "p50": 0.04,
+      "p95": 0.09299999999999997
+    },
+    "generation": {
+      "mean": 0.09714285714285714,
+      "p50": 0.11,
+      "p95": 0.15
+    },
+    "total": {
+      "mean": 0.14971428571428572,
+      "p50": 0.16,
+      "p95": 0.2
+    }
+  },
+  "index_build_ms": 33.60841200000664,
+  "run_date": "2026-10-30"
+}

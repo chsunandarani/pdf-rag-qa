@@ -1,0 +1,33 @@
+{
+  "mode": "llm",
+  "retriever": "bm25",
+  "top_k": 3,
+  "chunk_words": 80,
+  "overlap": 20,
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "n_questions": 35,
+  "accuracy_overall": 1.0,
+  "accuracy_answerable": 1.0,
+  "correct_refusals": 1.0,
+  "answer_in_context": 1.0,
+  "latency_ms": {
+    "retrieval": {
+      "mean": 0.5974285714285714,
+      "p50": 0.59,
+      "p95": 0.9969999999999998
+    },
+    "generation": {
+      "mean": 750.3325714285714,
+      "p50": 669.06,
+      "p95": 979.3609999999999
+    },
+    "total": {
+      "mean": 750.9317142857143,
+      "p50": 669.62,
+      "p95": 979.9969999999998
+    }
+  },
+  "index_build_ms": 35.33430000015869,
+  "run_date": "2026-10-30"
+}
